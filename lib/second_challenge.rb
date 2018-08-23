@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-return groceries.values_at(dairy, vegetable, meat, grains)
+return groceries.values_at(dairy, vegetable, meat, grains).flatten(1)
   
 
 end
